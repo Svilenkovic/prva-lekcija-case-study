@@ -1,0 +1,9 @@
+# Ovde idu samo opis projekta i slike.
+*
+!*/
+!.gitignore
+!README.md
+!README.sr.md
+!media/*.jpg
+!media/*.webp
+!media/*.png
