@@ -20,7 +20,7 @@ Sajt za pripremu učenika za hrvatsku državnu maturu u Zagrebu, sa nalozima i m
 
 ## O projektu
 
-Prva Lekcija iz Zagreba sprema učenike za hrvatsku državnu maturu: instrukcije, eseji pisani po službenim kriterijima bodovanja i online predavanja iz matematike i fizike. Sajt je na hrvatskom i morao je da prodaje digitalni materijal. Učenik plati karticom i odmah dobije fajl, koji posle nalazi na svom nalogu, sa bilo kog uređaja.
+Prva Lekcija iz Zagreba sprema učenike za hrvatsku državnu maturu: instrukcije, eseji pisani po službenim kriterijima bodovanja i online predavanja iz matematike i fizike. Sajt je na hrvatskom i morao je da prodaje digitalni materijal. Učenik plati karticom i odmah dobije fajl, koji posle nalazi na svom nalogu, sa bilo kog uređaja, ili u mejlu ako je kupio bez naloga.
 
 U naplati pregledač ne odlučuje ni o čemu. Sa sajta odlazi samo oznaka proizvoda; server upisuje kupovinu u stanju pending pre nego što otvori Stripe Checkout, a jedna funkcija je uslovnim upisom prebacuje u completed. Tu funkciju zovu i povratna strana i Stripe webhook, pa se materijal isporuči tačno jednom. Nijedno od njih ne veruje zahtevu: povratna strana ponovo pita Stripe za sesiju, a webhook mora da ima ispravan potpis.
 

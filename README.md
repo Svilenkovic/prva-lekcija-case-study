@@ -20,7 +20,7 @@ Site for Croatian state matura prep in Zagreb, with student accounts and study m
 
 ## About the project
 
-Prva Lekcija prepares students in Zagreb for the Croatian state matura: tutoring, essays written to the official scoring criteria and online lectures in maths and physics. The site is in Croatian and had to sell digital material. A student pays by card and gets the file straight away, and it stays in their account for later, on any device.
+Prva Lekcija prepares students in Zagreb for the Croatian state matura: tutoring, essays written to the official scoring criteria and online lectures in maths and physics. The site is in Croatian and had to sell digital material. A student pays by card and gets the file straight away, and it stays in their account for later, on any device, or arrives by email when they buy without one.
 
 In the payment flow the browser decides nothing. Only a product ID leaves the page; the server writes a pending purchase before opening Stripe Checkout, and a single function moves it to completed with a conditional update. The return page and the Stripe webhook both call that function, so the material is delivered exactly once. Neither of them trusts the request: the return page asks Stripe about the session again and the webhook needs a valid signature.
 
