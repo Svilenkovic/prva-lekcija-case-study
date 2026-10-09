@@ -4,7 +4,7 @@
 
 Site for Croatian state matura prep in Zagreb, with student accounts and study material delivered only after Stripe confirms the payment.
 
-**[prvalekcija.com](https://prvalekcija.com/)** · [Case study (in Serbian)](https://svilenkovic.com/radovi/prva-lekcija) · [Srpski](README.sr.md)
+**[prvalekcija.com](https://prvalekcija.com/)** · [Case study (in Serbian)](https://svilenkovic.rs/radovi/prva-lekcija) · [Srpski](README.sr.md)
 
 > [!NOTE]
 > Client project. The source code belongs to the client and stays in a private repository. This page describes what I built and how.
@@ -37,10 +37,10 @@ In the payment flow the browser decides nothing. Only a product ID leaves the pa
 
 | | Performance | Accessibility | Best practices | SEO |
 | :-- | :-: | :-: | :-: | :-: |
-| Mobile | 100 | 100 | 100 | 100 |
+| Mobile | 99 | 100 | 100 | 100 |
 | Desktop | 100 | 100 | 100 | 100 |
 
-PageSpeed Insights, lab test of the live site, September 2026. Security headers: 6 of 6. HTML validator: no errors. axe accessibility check: no violations. Structured data: `EducationalOrganization`.
+PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6 of 6. HTML validator: no errors. axe accessibility check: no violations. Structured data: `EducationalOrganization`.
 
 ## Screenshots
 
